@@ -1,0 +1,4 @@
+subscription_id = "00000000-0000-0000-0000-000000000000"
+location        = "uksouth"
+environment     = "dev"
+# client_ip is supplied by src/deploy.py during plan and apply.
