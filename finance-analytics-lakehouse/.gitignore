@@ -1,0 +1,12 @@
+# Official EBA source files are downloaded at deployment time.
+data/raw/eba/2025/*
+!data/raw/eba/2025/.gitkeep
+
+# Terraform working files and local state.
+infra/azure/.terraform/
+infra/azure/*.tfstate
+infra/azure/*.tfstate.*
+infra/azure/*.tfplan
+infra/azure/terraform.tfvars
+build/
+
